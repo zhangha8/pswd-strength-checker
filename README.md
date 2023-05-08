@@ -27,7 +27,6 @@ The `res` object returned from the `POST` request (if using JS and express) will
 
 ```
 {
-    "password": "123",
     "strength": "weak",
     "suggestion": "This password is weak, try adding at least one lowercase letter, one uppercase letter, one digit, and have a minimum of 8 characters."
 }

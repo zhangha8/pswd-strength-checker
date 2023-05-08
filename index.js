@@ -26,13 +26,11 @@ app.post("/pswd/strength", (req, res) => {
 
   if (returnSuggestion) {
     res.status(200).send({
-      password: `${password}`,
       strength: `${strength}`,
       suggestion: `${suggestion}`,
     });
   } else {
     res.status(200).send({
-      password: `${password}`,
       strength: `${strength}`,
     });
   }
